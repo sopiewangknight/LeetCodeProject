@@ -145,10 +145,12 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BasicCalculator.cpp" />
     <ClCompile Include="BitOperation.cpp" />
     <ClCompile Include="Chapter2.cpp" />
     <ClCompile Include="Chapter3.cpp" />
     <ClCompile Include="ContainDuplicate.cpp" />
+    <ClCompile Include="CopyListWithRandomPoints.cpp" />
     <ClCompile Include="CreateMaximumNumber.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="EditDistance.cpp" />
@@ -156,16 +158,19 @@
     <ClCompile Include="Fabonacci.cpp" />
     <ClCompile Include="FindTheDuplicateNumber.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
+    <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="InsertInterval.cpp" />
     <ClCompile Include="InterLeavingString.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="LargestRectangleHistogram.cpp" />
+    <ClCompile Include="Lexer.cpp" />
     <ClCompile Include="LongestConsecutiveSequence.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MaximalSquare.cpp" />
     <ClCompile Include="MaxSubarray.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="minPathSum.cpp" />
     <ClCompile Include="MyFAT.cpp" />
@@ -190,7 +195,11 @@
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UglyNumber2.cpp" />
     <ClCompile Include="UniqueBinarySearchTree.cpp" />
+    <ClCompile Include="WordPattern.cpp" />
     <ClCompile Include="WordSearch.cpp" />
+    <ClCompile Include="WordSearchcpp.cpp" />
+    <ClCompile Include="WorldLadder2.cpp" />
+    <ClCompile Include="ZigzagConversion.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

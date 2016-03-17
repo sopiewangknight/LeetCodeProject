@@ -1,13 +1,15 @@
-﻿生成启动时间为 2016/3/14 0:01:37。
+﻿生成启动时间为 2016/3/17 20:51:16。
      1>项目“C:\Users\darkknight\documents\visual studio 2015\Projects\LeetCodeProject\LeetCodeProject\LeetCodeProject.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MyFAT.cpp
-         MyFAT.cpp
-     1>c:\users\darkknight\documents\visual studio 2015\projects\leetcodeproject\leetcodeproject\myfat.cpp(207): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\darkknight\documents\visual studio 2015\projects\leetcodeproject\leetcodeproject\myfat.cpp(235): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\darkknight\documents\visual studio 2015\projects\leetcodeproject\leetcodeproject\myfat.cpp(529): warning C4101: “fd”: 未引用的局部变量
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt HappyNumber.cpp
+         HappyNumber.cpp
+     1>c:\users\darkknight\documents\visual studio 2015\projects\leetcodeproject\leetcodeproject\happynumber.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\darkknight\documents\visual studio 2015\projects\leetcodeproject\leetcodeproject\happynumber.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\darkknight\documents\visual studio 2015\projects\leetcodeproject\leetcodeproject\happynumber.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\darkknight\documents\visual studio 2015\projects\leetcodeproject\leetcodeproject\happynumber.cpp(46): warning C4018: “<”: 有符号/无符号不匹配
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\darkknight\documents\visual studio 2015\Projects\LeetCodeProject\Debug\LeetCodeProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\darkknight\documents\visual studio 2015\Projects\LeetCodeProject\Debug\LeetCodeProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\darkknight\documents\visual studio 2015\Projects\LeetCodeProject\Debug\LeetCodeProject.lib" /MACHINE:X86 Debug\BitOperation.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\darkknight\documents\visual studio 2015\Projects\LeetCodeProject\Debug\LeetCodeProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\darkknight\documents\visual studio 2015\Projects\LeetCodeProject\Debug\LeetCodeProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\darkknight\documents\visual studio 2015\Projects\LeetCodeProject\Debug\LeetCodeProject.lib" /MACHINE:X86 Debug\BasicCalculator.obj
+         Debug\BitOperation.obj
          Debug\Chapter2.obj
          Debug\Chapter3.obj
          Debug\ContainDuplicate.obj
@@ -18,16 +20,19 @@
          Debug\Fabonacci.obj
          Debug\FindTheDuplicateNumber.obj
          Debug\FirstMissingPositive.obj
+         Debug\HappyNumber.obj
          Debug\HouseRobber.obj
          Debug\InsertInterval.obj
          Debug\InterLeavingString.obj
          Debug\JumpGame.obj
          Debug\LargestRectangleHistogram.obj
+         Debug\Lexer.obj
          Debug\LongestConsecutiveSequence.obj
          Debug\MajorityElement.obj
          Debug\MaximalSquare.obj
          Debug\MaxSubarray.obj
          Debug\MergeIntervals.obj
+         Debug\MergeSort.obj
          Debug\MergeSortedArray.obj
          Debug\minPathSum.obj
          Debug\MyFAT.obj
@@ -52,10 +57,14 @@
          Debug\TwoSum.obj
          Debug\UglyNumber2.obj
          Debug\UniqueBinarySearchTree.obj
+         Debug\WordPattern.obj
          Debug\WordSearch.obj
+         Debug\WordSearchcpp.obj
+         Debug\WorldLadder2.obj
+         Debug\ZigzagConversion.obj
          LeetCodeProject.vcxproj -> C:\Users\darkknight\documents\visual studio 2015\Projects\LeetCodeProject\Debug\LeetCodeProject.exe
      1>已完成生成项目“C:\Users\darkknight\documents\visual studio 2015\Projects\LeetCodeProject\LeetCodeProject\LeetCodeProject.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:01.64
+已用时间 00:00:01.62

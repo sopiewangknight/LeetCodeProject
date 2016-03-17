@@ -3,7 +3,7 @@
 #include<stack>
 #include<sstream>
 #include<vector>
-#include<hash_map>
+#include<unordered_map>
 using namespace std;
 class Solution227 {
 public:
@@ -264,8 +264,8 @@ public:
 	}
 
 	bool wordPatten(string pattern, string str) {
-		hash_map<string, char> map;
-		hash_map<char, string> smap;
+		unordered_map<string, char> map;
+		unordered_map<char, string> smap;
 		char* s = new char[str.length()];
 		strcpy(s, str.c_str());
 		char* word = strtok(s, " ");
@@ -289,7 +289,7 @@ public:
 	}
 };
 
-int main() {
+int t227main() {
 
 	Solution227 s = Solution227();
 

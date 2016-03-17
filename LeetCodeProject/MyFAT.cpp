@@ -523,7 +523,7 @@ int my_open(char* filename) {
 }
 
 
-int main() {
+int FAT_main() {
 	startsys();
 	string cmd;
 	int fd;
